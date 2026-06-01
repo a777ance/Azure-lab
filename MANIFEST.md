@@ -12,6 +12,7 @@ Paged memory index. Claude reads this first, then fetches only unbracketed files
 |---|---|---|
 | Phase 1 Bicep | memory/azure-phase1-bicep.md | VNet + NSG + Private DNS Zone + Ubuntu B1s VM. Mirrors t630 homelab. Deploy with `scripts/deploy.sh` |
 | Deploy & teardown scripts | memory/scripts.md | `deploy.sh` — prompts for SSH key, creates RG, runs Bicep. `teardown.sh` — confirms before deleting RG |
+| [draft] Azure Functions | memory/azure-functions.md | Code-first serverless. HTTPTrigger, TimerTrigger, BlobTrigger, CosmosDBTrigger. AZ-204 Module 1. Lab idea: TimerTrigger to ping homelab DNS/VPN and alert via Azure Monitor |
 | [reference] Homelab → Azure mapping | memory/homelab-azure-mapping.md | Full table: UFW→NSG, Pi-hole→DNS Zone, Unbound→Azure DNS, WireGuard→VPN Gateway, Uptime Kuma→Azure Monitor, GitHub Actions→Azure CLI |
 | [reference] AZ-104 study notes | memory/az104-notes.md | Exam objectives mapped to this lab. VNets, NSGs, DNS, VMs, VPN Gateway, RBAC, Monitor |
 | [draft] Phase 2 — deploy pipeline | memory/phase2-pipeline.md | GitHub Actions → Azure CLI → VM. Service principal, Key Vault secrets, rolling deploys |

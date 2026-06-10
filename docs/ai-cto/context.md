@@ -2,7 +2,7 @@
 
 Read alongside the portfolio hub: `../DESIGN-Full-Workflow-Integration-end-to-end-/docs/ai-cto/portfolio.md`.
 
-**Last updated:** 2026-06-04
+**Last updated:** 2026-06-10 (fixed ADR numbering collision; noted stub CLAUDE.md exists)
 
 ---
 
@@ -13,12 +13,14 @@ Azure infrastructure lab. Currently a stub — only LICENSE and README exist. Sc
 ## Current state
 
 - Status: empty stub (P3 tech debt, see `DESIGN/docs/ai-cto/tech-debt.md` TD-10)
-- No CLAUDE.md
+- Stub `CLAUDE.md` only (house style + scope warning — replace once scope is decided)
 - No infrastructure defined
 
 ## Candidate scopes (to decide before doing any work)
 
-Pick one and document it as ADR-005 in `DESIGN/docs/ai-cto/decisions.md` before touching this repo.
+Pick one and document it as the **next free ADR number** (ADR-008 at the time of writing — check the
+log first; ADR-005 is already taken by "Member dues") in `DESIGN/docs/ai-cto/decisions.md` before
+touching this repo.
 
 | Candidate | Relationship to existing stack |
 | --------- | ------------------------------ |

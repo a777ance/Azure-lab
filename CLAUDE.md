@@ -37,7 +37,9 @@ Azure infrastructure lab for A777ance. Relationship to the rest of the portfolio
 
 1. Read `docs/ai-cto/context.md` — it lists candidate scopes and the required next step.
 2. Read the portfolio hub: `DESIGN-Full-Workflow-Integration-end-to-end-/docs/ai-cto/portfolio.md`.
-3. Decide scope and add it as ADR-005 in `DESIGN-Full-Workflow-Integration-end-to-end-/docs/ai-cto/decisions.md`.
+3. Decide scope and record it as the **next free ADR number** (ADR-008 at the time of writing —
+   check the log first; ADR-005 is already taken by "Member dues") in
+   `DESIGN-Full-Workflow-Integration-end-to-end-/docs/ai-cto/decisions.md`.
 4. Then add a real `CLAUDE.md` replacing this stub.
 
 ---
